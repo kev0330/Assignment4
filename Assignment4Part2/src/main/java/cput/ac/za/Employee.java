@@ -4,6 +4,12 @@ public class Employee  {
     private String name;
     private Hourly hourly;
     private Salaried salaried;
+    
+    /*
+    private double rate;
+    private double salary;
+    private double hours;
+    */
 
     public Employee(String name,double rate, double hours)  {
         this.hourly = new Hourly();
